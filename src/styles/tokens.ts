@@ -1,0 +1,66 @@
+import { DivisionKey } from '../types';
+
+export const TOKENS = {
+  colors: {
+    asmgBlue: '#1e3a8a',
+    asmgBlueLight: '#2563eb',
+    asmgOrange: '#f97316',
+    asmgGold: '#d97706',
+    black: '#07080b',
+    darkCanvas: '#0a0c10',
+    darkSurface: '#0f121a',
+    darkCard: '#131722',
+    darkBorder: '#1e2434',
+    warmWhite: '#f8fafc',
+    mutedText: '#94a3b8',
+    subtleText: '#64748b',
+    success: '#10b981',
+    warning: '#f59e0b',
+    danger: '#ef4444',
+  },
+  typography: {
+    h1: 'text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight',
+    h2: 'text-2xl sm:text-4xl md:text-5xl font-semibold tracking-tight',
+    h3: 'text-xl sm:text-2xl md:text-3xl font-medium',
+    eyebrow: 'text-xs uppercase tracking-widest font-mono font-semibold text-amber-500/90',
+    body: 'text-base sm:text-lg leading-relaxed text-slate-300',
+    caption: 'text-xs sm:text-sm text-slate-400',
+  },
+  divisionThemes: {
+    'all-schools-media': {
+      primary: '#2563eb',
+      accent: '#f97316',
+      badgeBg: 'bg-blue-950/60 text-blue-300 border-blue-800/60',
+      glow: 'glow-blue',
+      name: 'Institutional Blue & White',
+    },
+    'sports-express': {
+      primary: '#f97316',
+      accent: '#3b82f6',
+      badgeBg: 'bg-orange-950/60 text-orange-300 border-orange-800/60',
+      glow: 'glow-orange',
+      name: 'Broadcast Orange & Black',
+    },
+    'wildfive-pictures': {
+      primary: '#d97706',
+      accent: '#fef3c7',
+      badgeBg: 'bg-amber-950/60 text-amber-300 border-amber-800/60',
+      glow: 'glow-gold',
+      name: 'Luxury Champagne Gold & Noir',
+    },
+    '5th-floor-studio': {
+      primary: '#f1f5f9',
+      accent: '#94a3b8',
+      badgeBg: 'bg-slate-900/80 text-slate-200 border-slate-700/60',
+      glow: 'shadow-lg shadow-white/5',
+      name: 'Editorial Studio Monochrome',
+    },
+    'digital-marketing': {
+      primary: '#06b6d4',
+      accent: '#f97316',
+      badgeBg: 'bg-cyan-950/60 text-cyan-300 border-cyan-800/60',
+      glow: 'shadow-lg shadow-cyan-500/20',
+      name: 'Digital Growth Cyan & Violet',
+    },
+  } as Record<DivisionKey, { primary: string; accent: string; badgeBg: string; glow: string; name: string }>,
+};

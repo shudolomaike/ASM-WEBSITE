@@ -1,0 +1,58 @@
+import { LiveItem } from '../types';
+
+export const INITIAL_LIVE_ITEMS: LiveItem[] = [
+  {
+    id: 'live-derby-2026',
+    source: 'youtube',
+    state: 'LIVE',
+    title: 'Harare Schools Super Rugby Derby: St Georges College vs Prince Edward',
+    subtitle: 'Sports Express Live OB Broadcast • Commentary by ASMG Sports Desk',
+    url: 'https://youtube.com/@allschoolsmediasolutions8981?si=EAH0dNBsFQEIbf8p',
+    embedUrl: 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC8981allschools',
+    thumbnail: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=1200&auto=format&fit=crop',
+    startedAt: '14:00 CAT',
+    division: 'sports-express',
+    viewCount: '4.2K Watching',
+    tournamentOrEvent: 'Harare Inter-Schools Winter Derby',
+  },
+  {
+    id: 'upcoming-speech-day',
+    source: 'youtube',
+    state: 'UPCOMING',
+    title: 'St. John’s College Annual Speech Night & Prize Giving Ceremony 2026',
+    subtitle: 'All Schools Media Multi-Cam 4K Live Broadcast & Relays',
+    url: 'https://youtube.com/@allschoolsmediasolutions8981?si=EAH0dNBsFQEIbf8p',
+    thumbnail: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1200&auto=format&fit=crop',
+    scheduledStart: 'Friday, 17:30 CAT',
+    division: 'all-schools-media',
+    tournamentOrEvent: 'Academic Excellence & Awards Broadcast',
+  },
+  {
+    id: 'replay-wildfive-memorial',
+    source: 'youtube',
+    state: 'REPLAY',
+    title: 'Celebration of Life & Memorial Service — The Late Dr. T. Mapfumo',
+    subtitle: 'WildFive Pictures Dignified Memorial Live Broadcast & Archival Stream',
+    url: 'https://youtube.com/@wild05pictureswild05pictures?si=xE1IGFgDO8RmWZkm',
+    thumbnail: 'https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop',
+    startedAt: 'Archived',
+    division: 'wildfive-pictures',
+    viewCount: '8.9K Views',
+    tournamentOrEvent: 'Life Celebration Service',
+  },
+  {
+    id: 'replay-schools-athletics',
+    source: 'youtube',
+    state: 'REPLAY',
+    title: 'National High Schools Track & Field Championships: Finals Day 2',
+    subtitle: 'Sports Express OB Unit • 6-Camera Coverage with Slow-Mo Analysis',
+    url: 'https://youtube.com/@allschoolsmediasolutions8981?si=EAH0dNBsFQEIbf8p',
+    thumbnail: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=1200&auto=format&fit=crop',
+    startedAt: 'Archived',
+    division: 'sports-express',
+    viewCount: '12.4K Views',
+    tournamentOrEvent: 'National Schools Athletics Invitational',
+  },
+];
+
+export const LIVE_STREAMS = INITIAL_LIVE_ITEMS;

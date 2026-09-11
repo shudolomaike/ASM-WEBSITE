@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --asmg-blue: #1e3a8a;
+    --asmg-blue-light: #2563eb;
+    --asmg-orange: #f97316;
+    --asmg-gold: #d97706;
+    --asmg-black: #07080b;
+    --asmg-dark: #0d0f15;
+    --asmg-dark-card: #12151e;
+    --asmg-border: #1f2432;
+  }
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #07080b;
+  color: #f1f5f9;
+  overflow-x: hidden;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-serif-editorial {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Cinematic film grain overlay */
+.bg-film-grain {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Film strip edge perforations */
+.film-perforations {
+  background-image: radial-gradient(circle, #07080b 4px, transparent 4px);
+  background-size: 20px 20px;
+}
+
+/* Glow effects */
+.glow-gold {
+  box-shadow: 0 0 25px -5px rgba(217, 119, 6, 0.25);
+}
+
+.glow-blue {
+  box-shadow: 0 0 25px -5px rgba(37, 99, 235, 0.25);
+}
+
+.glow-orange {
+  box-shadow: 0 0 25px -5px rgba(249, 115, 22, 0.25);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07080b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #232838;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #39425a;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "All Schools Media Group (ASMG)",
+  "description": "Production-grade cinematic digital experience platform and five-division media ecosystem for All Schools Media Group, Zimbabwe. Because every moment is worth capturing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
